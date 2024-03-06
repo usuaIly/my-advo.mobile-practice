@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui, user-scalable=no">
+    <title>Practice</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo"><img src="./img/logo/logo.png" alt="logo"></div>
+            <input type="text" placeholder="Поиск" class="header__search" autocomplete="off"/>
+            <div class="header__notification"><img src="./img/notify/notify.png" alt="notify"></div>
+        </div>
+        <div class="search">
+            <ul class="autocomplete-list"></ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="promo">
+            <h1 class="slider__title">Ситуации наших последних клиентов</h1>
+            <div class="slider">
+                <div class="slide">
+                    <img src="./img/slider/card_1.svg" alt="Image 1">
+                    <div class="slide__content">
+                        <h1 class="slide__content-title">Развод</h1>
+                        <p class="slide__content-desc">с нами это легко</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/card_2.svg" alt="Image 2">
+                    <div class="slide__content">
+                        <h1 class="slide__content-title">Банкротство</h1>
+                        <p class="slide__content-desc">с нами это легко</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/card_3.svg" alt="Image 3">
+                    <div class="slide__content">
+                        <h1 class="slide__content-title">Развод</h1>
+                        <p class="slide__content-desc">с нами это легко</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__block">
+            <img class="main__frame" src="./img/main/frame.png" alt="main">
+            <h1 class="main__title">Мы всегда на связи <br> и готовы помочь вам</h1>
+            <p class="main__desc">Готовы проконсультировать вас</p>
+            <button class="main__button">
+                <p class="main__button-text">Мне нужна консультация
+            </button>
+        </section>
+
+        <section class="services">
+            <h2 class="service__title">Наши услуги</h2>
+            <div class="services__list">
+                <div class="service__item">
+                    <img src="./img/service/service.svg" alt="service">
+                    <h3 style="margin: 8px 0px 5px 0px;">Ситуации</h3>
+                    <span
+                        style="font-size: 14px; color: gray; font-family: Montserrat;  line-height: 16px; word-wrap: break-word">в
+                        судебной практике</span>
+                </div>
+                <div class="service__item">
+                    <img src="./img/service/faq-icon.svg" alt="faq">
+                    <h3 style="margin: 8px 0px 5px 0px;">Вопрос ответ</h3>
+                </div>
+                <div class="service__item">
+                    <img src="./img/service/doc-icons.svg" alt="documents">
+                    <h3 style="margin: 8px 0px 5px 0px;">Документы</h3>
+                </div>
+                <div class="service__item">
+                    <img src="./img/service/direct-icons.svg" alt="directory">
+                    <h3 style="margin: 8px 0px 5px 0px;">Справочник</h3>
+
+                    <span
+                        style=" font-size: 13px; color: gray; font-family: Montserrat;  line-height: 16px; word-wrap: break-word">
+                        нужной информации </span>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="news__block">
+            <div class="news__header">
+                <h3 class="news__title">Новости</h3>
+                <h3 class="news__read__all">Читать все</h3>
+            </div>
+            <div class="news__parent">
+                <img class="news__img" src="./img/news/image-1.svg" alt="news">
+                <div class="news__item">
+                    <h3 class="news__item-title">Кредитные организации</h3>
+                    <span class="news__item-text">Банкам нельзя с 1 июля
+                        <br> требовать от компаний, ИП и <br> физлиц повышенные комиссии...</span>
+                    <span style="font-size: 12px; color:#22222299; margin-top: 5px;">25 апреля</span>
+                </div>
+            </div>
+            <div class="news__parent">
+                <img class="news__img" src="./img/news/image-2.svg" alt="news">
+                <div class="news__item">
+                    <h3 class="news__item-title">Кредитные организации</h3>
+                    <span class="news__item-text">Банкам нельзя с 1 июля
+                        <br> требовать от компаний, ИП и <br> физлиц повышенные комиссии...</span>
+                    <span style="font-size: 12px; color:#22222299; margin-top: 5px;">25 апреля</span>
+                </div>
+            </div>
+            <div class="news__parent" style="height: 88px; margin-bottom: 5px;">
+                <div class="news__item">
+                    <h3 class="news__item-title">Кредитные организации</h3>
+                    <span class="news__item-text">Банкам нельзя с 1 июля
+                        требовать от компаний, ИП и физлиц повышенные комиссии...</span>
+                    <span style="font-size: 12px; color:#22222299; margin-top: 5px;">25 апреля</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__menu">
+                <li class="footer__item">
+                    <img src="./img/footer/main.png" alt="main" class="footer__icon">
+                    <p class="footer__text">Главная</p>
+                </li>
+                <li class="footer__item">
+                    <img src="./img/footer/service.png" alt="service" class="footer__icon">
+                    <p class="footer__text">Сервисы</p>
+                </li>
+                <li class="footer__item">
+                    <div class="footer__item-counter">4</div>
+                    <img src="./img/footer/notify.png" alt="notify" class="footer__icon">
+                    <p class="footer__text">Обращения</p>
+                </li>
+                <li class="footer__item">
+                    <img src="./img/footer/call.png" alt="call" class="footer__icon">
+                    <p class="footer__text">Звонок</p>
+                </li>
+                <li class="footer__item">
+                    <img src="./img/footer/profile.png" alt="profile" class="footer__icon">
+                    <p class="footer__text">Профиль</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('.slider').slick({
+            autoplay: true,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplaySpeed: 1500,
+            variableWidth: true,
+            infinite: true,
+        });
+    });
+</script>
+<script src="./scripts/json.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</html>
